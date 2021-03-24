@@ -62,13 +62,16 @@ try{
     win.attach(u);
     win.wait_for_button();
 
-    for(int dd=0; dd<8; dd++){
-        for(int d=0; d<8; d++){
-            u.move(100,0);
+    for(int i = 0; i < 8; i++)
+        for(int j = 0; j < 8; j++)
+        {
             win.wait_for_button();
-        }
-        u.move(-700,100);
-        win.wait_for_button();
+            if(j < 7)
+            
+                u.move(100,0);
+              
+            else
+                u.move(-700,100);
     }
 
     win.wait_for_button();
