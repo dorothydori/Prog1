@@ -51,7 +51,7 @@ void f(B2& b){
      b.f();
      b.pvf(); 
 
-     cout<<"B2"<<endl; 
+     cout<<"D1"<<endl; 
      
      D1 d; 
      d.vf(); 
