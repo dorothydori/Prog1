@@ -37,7 +37,6 @@ istream& read_person(istream& is, Person& p){
     return is;
 }
 
-
 int main(){
 
     Person p("Goofy"," ",63);
